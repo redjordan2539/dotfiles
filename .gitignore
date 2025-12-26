@@ -1,0 +1,54 @@
+# --- OS & System Junk ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Temporary & Backup Files ---
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.log
+*.orig
+
+# --- Security & Secrets ---
+.ssh/
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+*.p12
+.env
+.env.local
+.netrc
+_netrc
+.kube/
+.aws/
+.azure/
+.npmrc
+token
+tokens
+
+# --- Ansible ---
+*.retry
+*.pyc
+__pycache__/
+.vault_pass
+.vault_password
+
+# --- VSCode ---
+workspaceStorage/
+globalStorage/
+History/
+Backups/
+CachedData/
+logs/
+
+# --- Miscellaneous ---
+node_modules/
+venv/
+.venv/
