@@ -32,3 +32,6 @@ bindkey "^[[B" down-line-or-beginning-search
 
 # Starship Init
 eval "$(starship init zsh)"
+
+# Star ssh agent
+eval "$(ssh-agent -s)" > /dev/null
